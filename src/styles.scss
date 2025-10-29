@@ -33,6 +33,21 @@ body {
   // Reset the user agent margin.
   margin: 0;
 }
+.toast-success {
+  background-color: #4CAF50 !important;
+  color: white !important;
+}
+
+.toast-error {
+  background-color: #F44336 !important;
+  color: white !important;
+}
+
+.toast-info {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
